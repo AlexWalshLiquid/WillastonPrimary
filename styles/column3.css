@@ -1,0 +1,497 @@
+﻿
+/* the 3 column responsive design layout */
+
+@media (min-width: 700px) and (max-width: 927px) 
+{
+    .outerbody
+    {
+        width:100%;
+
+    }
+    
+    /* MAIN MENU */
+    
+    .primarynav 
+    {
+        width:570px;
+        height:200px;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    .primarynav a
+    {
+	    height: 96px;
+	    width: 151px;
+	    float:left;
+	    position:relative;
+    }
+    
+    /* ----------- Home Button --------------*/
+
+    .homemenu, .homemenu_selected 
+    {
+	    background-image: url(../images/tabs/home_tab_sml.png);
+	    top:0;
+	    left:0; 
+    }
+
+    
+    /* ----------- About Button --------------*/
+
+    .aboutmenu, .aboutmenu_selected  
+    {
+	    background-image: url(../images/tabs/about_tab_sml.png);
+	    top:0;
+	    left:0;
+	    margin:0 49px;
+
+    }
+    
+    /* ----------- Our Classes Button --------------*/
+
+    .classesmenu, .classesmenu_selected 
+    {
+	    background-image: url(../images/tabs/classes_tab_sml.png);
+	    top:0;
+	    left:0;
+    }
+    
+    /* ----------- Office Button --------------*/
+
+    .officemenu, .officemenu_selected 
+    {
+	    background-image: url(../images/tabs/office_tab_sml.png);
+	    top:0;
+	    left:0;
+	    clear:right;
+    }
+
+    /* ----------- Our Community Button --------------*/
+
+    .communitymenu, .communitymenu_selected 
+    {
+	    background-image: url(../images/tabs/community_tab_sml.png);
+	    top:0;
+	    left:0;
+	    margin:0 49px;
+    }
+    
+    /* ----------- PTA Shop Button --------------*/
+
+    .ptamenu, .ptamenu_selected
+    {
+	    background-image: url(../images/tabs/pta_tab_sml.png);
+	    top:0;
+	    left:0;
+    }
+    
+    /* MAIN CONTENT BOX */
+
+    .content_wrapper, .content_outer 
+    {
+        width:700px;
+    }
+    
+    .content_outer 
+    {
+        background-image: url(../images/tabs/left_right_border_700.png);
+    }
+
+    .content 
+    {
+        width:644px;
+    }
+    
+    /*.content img 
+    {
+        width: 50%;
+    }*/
+    
+    .div_tb, .div_t, .div_bb, .div_b
+    {
+        width:624px;
+    }
+    
+    /* LOGO AND POLAROIDS */
+    
+    .header 
+    {
+        width:700px;
+        height:300px;
+        margin: 0 auto;
+    }
+    
+    .logo 
+    {
+        width:275px;
+        height:275px;
+        float:left;
+    } 
+
+    .frame1 
+    {
+        left: 138px;
+        top: 0;
+    }
+
+    .frame2 
+    {
+        left: 310px;
+        top: 26px;
+    }
+
+    .frame3 
+    {
+        left: 472px;
+        top: 8px;
+    }
+
+    .polaroid1
+    {
+        left: 165px;
+        top: 27px;
+    }
+
+    .polaroid2
+    {
+        left: 339px;
+        top: 51px;
+    }
+
+    .polaroid3
+    {
+        left: 503px;
+        top: 35px;
+    }
+
+    .polaroid4, .frame4
+    {
+        display:none !important;
+        visibility:hidden;
+    }
+    
+    .contact_top 
+    {
+        width:450px;
+        margin:0 auto;
+        word-wrap: break-word;
+    }
+    
+    /* CONTENT INNER BOX WITH SUBMENU */
+    
+    .about .content_inner, .classes .content_inner, .office .content_inner, .classes .gallery 
+    {
+        width: 450px;
+    }
+    
+    /* CONTENT INNER BOX WITHOUT SUBMENU */
+    
+    .home .content_inner, .community .content_inner, .pta .content_inner
+    {
+        width: 585px; 
+        margin-left:25px;
+    }    
+    
+    /* DECORATIONS */
+
+    .pencil
+    {
+        top: 100px;
+        left:-32px;
+    }
+
+    .paintbrush
+    {
+        top: -70px;
+        right:-15px;
+    }
+
+    .scissors
+    {
+        top: 160px;
+        right:-50px;
+    }
+    
+    /* ACCREDITATIONS */
+
+    .accreditations 
+    {
+        width:700px;
+        height:202px;
+    }
+
+    .ac_t, .ac_tfill, .ac_bfill, .ac_b  
+    {
+        width: 624px;
+    }
+
+    .ac_lfill, .ac_rfill, .ac_l, .ac_r  
+    {
+        height:126px;  
+    }
+
+    .ac_wb
+    {
+        height:156px;
+    }
+    
+    .accreditation1 
+    {
+        margin-left: 30px;
+    }
+    
+    .accreditation2, .accreditation3, .accreditation4
+    {
+        margin-left:70px;   
+    }
+    
+    .accreditation5
+    {
+        margin-left:100px;
+    }
+    
+    .accreditation6, .accreditation7 
+    {
+        margin-left:80px;
+    }
+    
+    /* TICKER */
+
+    .ticker 
+    {
+        width:700px;
+    }
+
+    .t_t, .t_tfill, .t_bfill, .t_b, .ticker ul li
+    {
+        width: 624px;
+    }
+    
+    /* FOOTER */
+
+    .footer 
+    {
+        width:490px;
+    }
+
+    .footer ul li
+    {
+        height:150px;    
+    }
+    
+    .footer .col1
+    {
+        border:none !important;
+        width: 110px;
+    }
+
+    .footer .col2 
+    {
+        width: 135px;
+    }
+
+    .footer .col3
+    {
+        width:115px;
+    }
+
+    .footer .col4 
+    {
+        width:80px;
+    }
+    
+    /* NEWSLETTERS */
+
+    .newsletter
+    {
+        width:482px;
+        height:59px;
+        background-size:contain;
+        background-repeat:no-repeat;
+    } 
+    
+    .home .newsletter
+    {
+        content: url(../images/home/newsletter_btn.png);
+        clear:both;
+    }
+
+    .classes .forest
+    {
+        content: url(../images/classes/forest_newsletter_btn.png);
+    }
+
+    .classes .reception
+    {
+        background-image: url(../images/classes/reception_newsletter_btn.png);
+    }
+
+    .classes .year1
+    {
+        background-image: url(../images/classes/year_1_newsletter_btn.png);
+    }
+    
+    .classes .year2
+    {
+        background-image: url(../images/classes/year_2_newsletter_btn.png);
+    }
+    
+    .classes .year3
+    {
+        background-image: url(../images/classes/year_3_newsletter_btn.png);
+    }
+    
+    .classes .year4
+    {
+        background-image: url(../images/classes/year_4_newsletter_btn.png);
+    }
+    
+    .classes .year5
+    {
+        background-image: url(../images/classes/year_5_newsletter_btn.png);
+    }
+    
+    .classes .year6
+    {
+        background-image: url(../images/classes/year_6_newsletter_btn.png);
+    }
+    
+     .pta .newsletter
+    {
+        background-image: url(../images/classes/pta_newsletter.png);
+    }
+    
+    .about .newsletter
+    {
+        background-image: url(../images/classes/governors_newsletter.png);
+    }
+    
+    /* CLASS GALLERIES */
+    
+    .gallery 
+    {
+        min-height:230px;
+    }
+    
+    .gallery a 
+    {
+        height:128px;
+        width:128px;
+    }
+    
+    .infiniteCarousel 
+    {
+      width: 442px;
+      height: 158px;
+    }
+
+    .infiniteCarousel .wrapper 
+    {
+      width: 442px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */  
+    }
+    
+    
+    /* HOME PAGE */
+    .home .map 
+    {
+        display:none;
+    }
+    
+    /* ABOUT OUR SCHOOL */
+    
+    
+    
+    .table_download 
+    {
+        display:none;
+    }
+    
+    .download
+    {
+        display:none;
+    }
+    
+    /* OFFICE */
+    .office .contacts img 
+    {
+        margin: 0 15px 15px 0;
+        width:auto !important;
+    }
+    
+    /* PAGE IMAGES */
+    .contentimg 
+    {
+        width:228px;
+    }
+    
+    .contentimg .frame_top 
+    {
+        width:240px;
+    }
+        
+    .contentimg .frame_bottom
+    {
+        width:240px;
+    }
+    
+    .about .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_about_header_240.png);
+    }
+    
+    .about .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_about_footer_240.png);
+    }
+    
+    .home .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_home_header_240.png);
+    }
+    
+    .home .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_home_footer_240.png);
+    }
+    
+    .classes .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_classes_header_240.png);
+    }
+    
+    .classes .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_classes_footer_240.png);
+    }
+    
+    .office .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_office_header_240.png);
+    }
+    
+    .office .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_office_footer_240.png);
+    }
+    
+    .community .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_community_header_240.png);
+    }
+    
+    .community .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_community_footer_240.png);
+    }
+    
+    .pta .contentimg .frame_top 
+    {
+        background-image:url(../images/pageimages/border_pta_header_240.png);
+    }
+    
+    .pta .contentimg .frame_bottom 
+    {
+        background-image:url(../images/pageimages/border_pta_footer_240.png);
+    }
+}

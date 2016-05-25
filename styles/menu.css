@@ -1,0 +1,113 @@
+﻿
+
+/* ----------- Home Button --------------*/
+
+.homemenu 
+{
+}
+
+.homemenu_selected 
+{
+	
+}
+
+
+/* ----------- About Button --------------*/
+
+.aboutmenu 
+{
+	width: 199px;
+	background-image: url(../images/tabs/about_tab_off.png);
+	margin-right:4px;
+	left:130px;
+}
+
+.aboutmenu_selected 
+{
+	width: 203px;
+	background-image: url(../images/tabs/about_tab_on.png);
+	margin-right:0px;
+	left:130px;
+	top:6px;
+	z-index:99;
+}
+
+/* ----------- Our Classes Button --------------*/
+
+.classesmenu 
+{
+	width: 181px;
+	background-image: url(../images/tabs/classes_tab_off.png);
+	margin-right:3px;
+	left:270px;
+}
+
+.classesmenu_selected 
+{
+	width: 184px;
+	background-image: url(../images/tabs/classes_tab_on.png);
+	margin-right:0px;
+	left:270px;
+	top:6px;
+	z-index:99;
+}
+
+/* ----------- Office Button --------------*/
+
+.officemenu 
+{
+	width: 177px;
+	background-image: url(../images/tabs/office_tab_off.png);
+	margin-right:5px;
+	left:400px;
+}
+
+.officemenu_selected 
+{
+	width: 182px;
+	background-image: url(../images/tabs/office_tab_on.png);
+	margin-right:0px;
+	left:400px;
+	z-index:99;
+	top:6px;
+}
+
+/* ----------- Our Community Button --------------*/
+
+.communitymenu 
+{
+	width: 175px;
+	background-image: url(../images/tabs/community_tab_off.png);
+	margin-right:7px;
+	left:538px;
+}
+
+.communitymenu_selected 
+{
+	width: 182px;
+	background-image: url(../images/tabs/community_tab_on.png);
+	margin-right:0px;
+	left:538px;
+	top:6px;
+	z-index:99;
+}
+
+/* ----------- PTA Shop Button --------------*/
+
+.ptamenu 
+{
+	width: 173px;
+	background-image: url(../images/tabs/pta_tab_off.png);
+	margin-right:4px;
+	left:675px;
+}
+
+.ptamenu_selected 
+{
+	width: 178px;
+	background-image: url(../images/tabs/pta_tab_on.png);
+	margin-right:0px;
+	top:6px;
+	left:665px;
+	z-index:99;
+}

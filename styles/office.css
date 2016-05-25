@@ -1,0 +1,73 @@
+﻿/* OFFICE SECTION */
+
+.office .content 
+{
+    background-color: #E48CBB;
+}
+
+.office .div_tl
+{
+    background-image: url(../images/tabs/office_corner_tl.png);
+}
+
+.office .div_tr
+{
+    background-image: url(../images/tabs/office_corner_tr.png);
+}
+
+.office .div_t
+{
+
+    background-color:#E48CBB;
+}
+
+.office .div_bl
+{
+    background-image: url(../images/tabs/office_corner_bl.png);
+}
+
+.office .div_br
+{
+    background-image: url(../images/tabs/office_corner_br.png); 
+}
+
+.office .div_b
+{
+    background-color:#E48CBB;
+}
+
+.office h1, .office .highlight 
+{
+    color: #DB5B9D;
+}
+
+.office hr {
+    background-color:#DB5B9D;
+    border-width:0;
+    color:#DB5B9D;
+    height:1px;
+    line-height:0;
+    margin:1em 0 1.5em 0;
+    page-break-after:always;
+    text-align:center;
+    width:100%;
+}
+
+/* NEWS */
+
+.newslist h2
+{
+    float: left;
+    margin: 0 0 5px 0;
+    font-size: 1em;
+}
+
+.newslist .date 
+{
+    float: right;
+}
+
+.newslist .summary
+{
+    clear:both;
+}

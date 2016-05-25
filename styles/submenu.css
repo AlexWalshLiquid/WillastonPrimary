@@ -1,0 +1,187 @@
+﻿/* ABOUT OUR SCHOOL */
+
+.aboutsubmenu 
+{
+    width: 120px;
+    height: 75px;
+    text-indent: -2000px;
+    margin-bottom:6px;
+    background-position: center top;
+    background-repeat:no-repeat;
+    display:block;
+}
+
+.aboutsubmenu:hover 
+{
+    background-position:bottom;
+}
+
+.whattheysay_submenu
+{
+    background-image: url(../images/tabs/about_menu_whattheysay.png);
+}
+
+.schooldetails_submenu
+{
+    background-image: url(../images/tabs/about_menu_schooldetails.png);
+    height:77px;
+}
+
+.uniform_submenu
+{
+    background-image: url(../images/tabs/about_menu_our_uniform.png);
+    height:75px;
+}
+
+.admissions_submenu
+{
+    background-image: url(../images/tabs/about_menu_admissions.png);
+    height:74px;
+}
+
+.policies_submenu
+{
+    background-image: url(../images/tabs/about_menu_policies.png);
+}
+
+.clubs_submenu
+{
+    background-image: url(../images/tabs/about_menu_clubs.png);
+    height:77px;
+}
+
+.governors_submenu
+{
+    background-image: url(../images/tabs/about_menu_governers.png);
+}
+
+.s4yc_submenu
+{
+    background-image: url(../images/tabs/about_menu_s4yc.png);
+}
+
+.schooldirect_submenu {
+    background-image: url(../images/tabs/about_menu_school_direct.png);
+    height:75px;
+}
+
+
+/* OUR CLASSES */
+
+.classessubmenu 
+{
+    width: 120px;
+    height: 74px;
+    text-indent: -2000px;
+    margin-bottom:6px;
+    background-position: center top;
+    background-repeat:no-repeat;
+    display:block;
+}
+
+.classessubmenu:hover
+{
+    background-position: center bottom;
+}
+
+.forestschool_submenu
+{
+    background-image: url(../images/tabs/classes_menu_forest.png);
+}
+
+.reception_submenu
+{
+    background-image: url(../images/tabs/classes_menu_reception.png);
+}
+
+.year1_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year1.png);
+    height: 75px;
+}
+
+.year2_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year2.png);
+    height: 73px;
+}
+
+.year3_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year3.png);
+    height: 75px;
+}
+
+.year4_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year4.png);
+}
+
+.year5_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year5.png);
+    height: 73px;
+}
+
+.year6_submenu
+{
+    background-image: url(../images/tabs/classes_menu_year6.png);
+}
+
+.schooltrips_submenu
+{
+    background-image: url(../images/tabs/classes_menu_schooltrips.png);
+}
+
+/* OFFICE */
+
+.officesubmenu 
+{
+    width: 120px;
+    text-indent: -2000px;
+    margin-bottom:6px;
+    background-position: center top;
+    background-repeat:no-repeat;
+    display:block;
+}
+
+.officesubmenu:hover
+{
+    background-position: center bottom;
+}
+
+.calendar_submenu
+{
+    background-image: url(../images/tabs/office_menu_calendar.png);
+    height: 74px;
+}
+
+.holidays_submenu
+{
+    background-image: url(../images/tabs/office_holidays.png);
+    height: 74px;
+}
+.contact_submenu
+{
+    background-image: url(../images/tabs/office_menu_contact.png);
+    height: 75px;
+}
+
+.prospectus_submenu
+{
+    background-image: url(../images/tabs/office_prospectus.png);
+    height: 74px;
+}
+
+.news_submenu
+{
+    background-image: url(../images/tabs/office_menu_news.png);
+    height: 73px;
+}
+
+
+
+.selected 
+{
+    background-position:bottom; 
+}

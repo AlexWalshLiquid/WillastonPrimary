@@ -1,0 +1,53 @@
+﻿/* PTA SECTION */
+
+.pta .content 
+{
+    background-color: #F4A45E;
+}
+
+.pta .div_tl
+{
+    background-image: url(../images/tabs/pta_corner_tl.png);
+}
+
+.pta .div_tr
+{
+    background-image: url(../images/tabs/pta_corner_tr.png);
+}
+
+.pta .div_t
+{
+
+    background-color:#F4A45E;
+}
+
+.pta .div_bl
+{
+    background-image: url(../images/tabs/pta_corner_bl.png);
+}
+
+.pta .div_br
+{
+    background-image: url(../images/tabs/pta_corner_br.png); 
+}
+
+.pta .div_b
+{
+    background-color:#F4A45E;
+}
+
+.pta h1
+{
+    color: #F4A45E;
+}
+
+.pta a, .pta a:visited
+{
+    color: #F4A45E;
+    text-decoration:underline;
+}
+
+.pta a:hover
+{
+    text-decoration:underline;
+}

@@ -1,0 +1,201 @@
+﻿.home .content, .home .div_t, .home .div_b, .home .content_inner
+{
+    background-color: #002C9C !important;
+}
+
+.home .div_tl
+{
+    background-image: url(../images/tabs/home_corner_tl.png);
+}
+
+.home .div_tr
+{
+    background-image: url(../images/tabs/home_corner_tr.png);
+}
+
+.home .div_bl
+{
+    background-image: url(../images/tabs/home_corner_bl.png);
+}
+
+.home .div_br
+{
+    background-image: url(../images/tabs/home_corner_br.png); 
+}
+
+.home h1, .home .content_inner
+{
+    color: #FFFFFF;
+}
+
+/* TICKER */
+
+.ticker 
+{
+    margin: 0 auto;
+    position:relative;
+    height:94px;
+    clear:both;
+}
+
+.t_tl 
+{
+    width: 38px;
+    height:38px;
+    background: url(../images/tabs/white_corner_tl.png);   
+}
+
+.t_t 
+{
+    height:12px;
+    background: url(../images/tabs/top_shadow.png);
+    position: absolute;
+    left:38px;
+    top:0;   
+}
+
+.t_tfill 
+{
+    height:26px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left:38px;
+    top:12px;   
+}
+
+.t_bfill 
+{
+    height:26px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left:38px;
+    bottom:12px;   
+}
+
+.t_lfill 
+{
+    width: 26px;
+    height: 18px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:38px;
+    left:12px;   
+}
+
+.t_rfill 
+{
+    width: 26px;
+    height: 18px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:38px;
+    right:12px;   
+}
+.t_b 
+{
+    height:12px;
+    background: url(../images/tabs/bottom_shadow.png);
+    position: absolute;
+    left:38px;
+    bottom:0;   
+}
+
+.t_l 
+{
+    width:12px;
+    height: 18px;
+    background: url(../images/tabs/left_shadow.png);
+    position:absolute;
+    top:38px;
+} 
+
+.t_r 
+{
+    width:12px;
+    height: 18px;
+    background: url(../images/tabs/right_shadow.png);
+    position:absolute;
+    top:38px;
+    right:0;
+} 
+
+.t_tr 
+{
+    width: 38px;
+    height:38px;
+    background: url(../images/tabs/white_corner_tr.png);
+    right:0;
+    position:absolute;
+    top:0;
+}
+
+.t_bl 
+{
+    width: 38px;
+    height:38px;
+    background: url(../images/tabs/white_corner_bl.png);
+    bottom:0px;
+    position:absolute;
+}
+
+.t_br 
+{
+    width: 38px;
+    height:38px;
+    background: url(../images/tabs/white_corner_br.png);  
+    bottom:0px;
+    right:0px;
+    position:absolute;
+}
+
+.t_wb
+{
+    height:58px;
+    margin:-20px 38px -20px 38px;
+    background-color:#FFFFFF;
+    z-index:3;
+    position:inherit;
+    overflow:hidden;
+}
+
+#vmarquee 
+{
+    height:180px;   
+}
+.ticker a, .ticker a:visited 
+{
+    font-size:0.8em;
+    color: #002C9C
+}
+
+.ticker a:hover 
+{
+    text-decoration:none;
+}
+
+.ticker h3 
+{
+    margin:0;
+}
+
+.ticker p
+{
+    margin: 0 0 5px 0;
+}
+
+
+/* MAP */
+
+.map 
+{
+    width: 855px;
+    height:431px;
+    background: url(../images/home/school_map.png) no-repeat;
+    margin-left: 20px;
+    position:relative;
+}
+
+.padmeH1{
+padding-left:32px;
+padding-top:15px;
+}

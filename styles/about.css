@@ -1,0 +1,173 @@
+﻿/* ABOUT SECTION */
+
+.about .content 
+{
+    background-color: #EA6464;
+}
+
+.about .div_tl
+{
+    background-image: url(../images/tabs/about_corner_tl.png);
+}
+
+.about .div_tr
+{
+    background-image: url(../images/tabs/about_corner_tr.png);
+}
+
+.about .div_t
+{
+
+    background-color:#EA6464;
+}
+
+
+.about .div_bl
+{
+    background-image: url(../images/tabs/about_corner_bl.png);
+}
+
+.about .div_br
+{
+    background-image: url(../images/tabs/about_corner_br.png); 
+}
+
+.about .div_b
+{
+    background-color:#EA6464;
+}
+
+.about h1 
+{
+    color: #E11C1B;
+}
+
+.about h2 
+{
+    font-family: "Comic Sans MS", "Comic Sans W01 Regular", Sans-Serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 110%;
+    margin-bottom: 20px;
+    color: #E11C1B;
+}
+
+.about .redlist
+{
+    color:#E11C1B;
+    line-height:1.5em;
+    padding-left:20px;
+}
+
+.about ul li a, .about ul li hover, .about .redlink,  .about .redlink:visited
+{
+    color:#E11C1B !important;
+    text-decoration: underline;
+}
+
+/* UNIFORM AND PE KIT TABLES */
+.uniform, .pe_kit, .clubs {
+  border-collapse: collapse;
+  width:100%
+}
+
+.uniform th, .uniform th, .pe_kit th, .pe_kit th, .clubs th, .clubs th 
+{
+	color: #E11C1B;
+}
+
+.uniform td, .uniform th, .pe_kit td, .pe_kit th, .clubs td, .clubs th  
+{
+  border: 2px solid #E11C1B;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+  vertical-align:text-top;
+}
+
+.uniform tr:first-child th, .pe_kit tr:first-child th, .clubs tr:first-child th 
+{
+  border-top: 0;
+}
+
+.uniform tr:last-child td, .uniform tr:last-child th, .pe_kit tr:last-child td, .pe_kit tr:last-child th, .clubs tr:last-child td, .clubs tr:last-child th 
+{
+  border-bottom: 0;
+}
+
+.uniform tr td:first-child, .uniform tr th:first-child, .pe_kit tr td:first-child, .pe_kit tr th:first-child, .clubs tr td:first-child, .clubs tr th:first-child
+{
+  border-left: 0;
+  border-top: 0 none;  
+}
+
+.uniform tr td:last-child, .uniform tr th:last-child, .pe_kit tr td:last-child, .pe_kit tr th:last-child, .clubs tr td:last-child, .clubs tr th:last-child
+{
+  border-right: 0;
+}
+
+.uniform tr td, .uniform tr th, .clubs tr th, .clubs tr td
+{
+    width:40%;
+}
+
+.pe_kit tr td, .pe_kit tr th
+{
+    width:80%;
+}
+
+.uniform tr td:first-child, .uniform tr th:first-child, .pe_kit tr td:first-child, .pe_kit tr th:first-child, .clubs tr td:first-child, .clubs tr th:first-child
+{
+    width:20%;
+}
+
+.about table h2 
+{
+    color: #E11C1B;
+    font-weight:normal;
+    margin:0;
+}
+
+.governors 
+{
+    width:100%;
+    table-layout:fixed;
+}
+.governors img
+{
+    width:100%;
+    max-width:158px;
+}
+
+
+.governors tr td 
+{
+    padding-bottom: 30px;
+    vertical-align:top;
+    word-wrap:break-word;
+}
+
+.governors tr > td:first-child 
+{
+    padding-right: 15px;
+    width: 27%;
+    max-width:158px;
+}
+
+.clubs h2 
+{
+    font-family: Helvetica, Verdana, Arial,  sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	color: #4A4A4A;
+	margin:0;
+	padding:0;
+	text-transform:none;
+}
+
+/* NEWSLETTER */
+
+.about .newsletter 
+{
+    float:right;
+}
+
