@@ -68,6 +68,7 @@
         ds2 = pageclass.ReturnFiles(pageuid)
         Dim newsletterHL As HyperLink = DirectCast(Master.FindControl("newsletterHL"), HyperLink)
         newsletterHL.Visible = True
+		newsletterHL.Enabled = True
         
         If ds2.Tables(0).Rows.Count > 0 Then
             newsletterHL.NavigateUrl = "http://admin.liquidclients.co.uk/writedir/files/" & ds2.Tables(0).Rows(0)("file_title")
@@ -75,7 +76,7 @@
         
         'Hardcoded this next line in as resources are not being called and latest newsletter record is not appearing in
         'the database - need to look into at a future date when time allows - Wayne 6/10/15
-        ' newsletterHL.NavigateUrl = "http://www.willastonceprimaryschool.co.uk/pdf/September-2015.pdf"
+        ' newsletterHL.NavigateUrl = "http://www.willastonceprimaryschool.co.uk/pdf/may2016.pdf"
         
         titleLT.Text = "Willaston Church of England Primary School"
         
