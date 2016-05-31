@@ -61,6 +61,9 @@
         
         'Map
         DirectCast(Master.FindControl("mapPNL"), Panel).Visible = True
+		
+		'Video
+		DirectCast(Master.FindControl("videoPNL"), Panel).Visible = True
         
         'Newsletter
         Dim pageuid As String = ds.Tables("page").Rows(0)("pageuid")

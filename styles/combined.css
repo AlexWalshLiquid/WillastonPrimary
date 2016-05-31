@@ -576,28 +576,35 @@ a:hover
 .pencil
 {
     background-image: url(../images/decoration/pencil.png);
-    width: 64px;
-    height: 326px;
-    position:absolute;
-    z-index: 101;
+      width: 64px;
+   height: 326px;
+   position:absolute;
+   z-index: 101;
+    left: 5px;
+   top: 720px;
 }
 
 .paintbrush
 {
     background-image: url(../images/decoration/paintbrush.png);
-    width: 26px;
-    height: 382px;
-    position:absolute;
-    z-index: 101;
+       width: 26px;
+   height: 382px;
+   position:absolute;
+   z-index: 101;
+     right: -15px;
+  top: 550px;
 }
 
 .scissors
 {
     background-image: url(../images/decoration/scissors.png);
-    width: 141px;
-    height: 416px;
-    position:absolute;
-    z-index: 101;
+   width: 141px;
+   height: 416px;
+   position:absolute;
+   z-index: 101;
+     right: -30px;
+  top: 745px;
+	
 }
 
 .butterfly_1
@@ -1216,23 +1223,9 @@ a:hover
     
     /* DECORATIONS */
 
-    .pencil
-    {
-        top: 100px;
-        left:5px;
-    }
+    
 
-    .paintbrush
-    {
-        top: -70px;
-        right:-15px;
-    }
-
-    .scissors
-    {
-        top: 160px;
-        right:-30px;
-    }
+  
     
     /* ACCREDITATIONS */
 
@@ -3006,3 +2999,12 @@ a:hover
         background-image:url(../images/pageimages/border_pta_footer_240.png);
     }
 }
+
+.content_wrapper about:not(.home){
+    margin:-34px auto 0;
+}
+
+
+
+
+

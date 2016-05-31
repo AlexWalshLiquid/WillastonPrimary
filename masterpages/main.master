@@ -144,7 +144,13 @@
                 <div class="div_tr"></div>
                 <div class="content_outer">
                     <div class="content">
-					 <h1 class="padmeH1"><asp:Literal ID="mpTitleLT" runat="server" Visible="false" /></h1>
+					 <h1 class="padmeH1">Willaston Church of England Primary School<asp:Literal ID="mpTitleLT" runat="server" Visible="false" /></h1>
+					<asp:Panel runat="server" ID="videoPNL" Visible="false" CssClass="gallery curved"><style>.embed-container { position: relative; padding-bottom: 56.25%; margin-bottom:50px; margin-left: 20px; height: 0; overflow: hidden; max-width: 100% !important; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100% !important; height: 100%!important; }</style>
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/66140585' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+</asp:Panel>
+					
+					
+					 
                         <asp:Panel runat="server" ID="mapPNL" CssClass="map" Visible="false">
                             <asp:HyperLink runat="server" ID="map_forestHL" CssClass="map_forest" NavigateUrl="~/our-classes/Default.aspx?id=forest-school"></asp:HyperLink>
                             <asp:HyperLink runat="server" ID="map_officeHL" CssClass="map_office" NavigateUrl="~/office/"></asp:HyperLink>
